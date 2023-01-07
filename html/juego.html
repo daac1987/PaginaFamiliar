@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/subtitulos.css">
+    <link rel="stylesheet" href="./css/Olas.css">
+    <link rel="stylesheet" href="./css/Footer.css">
+    <link rel="stylesheet" href="./css/servicio.css">
+    <link rel="stylesheet" href="./css/pacman.css">
+    <link rel="stylesheet" href="./css/juego.css">
+    <title>Familia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body style="background-color: black;">
+      
+    <div class="holas" id="inicio">
+        <div class="content">
+          <div class="d-flex justify-content-center">
+            <div class="mt-1">
+              <div class="glitch" data-text="Soluciones Cordero" id="empresas">Soluciones Cordero</div>
+              <p class="fs-4 fw-lighter">Seriedad, compromiso y excelencia.<br> Son palabras que definen <br>Nuestro trabajo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="waves">
+          <div class="wave circulo a"></div>
+          <div class="wave circulo b"></div>
+          <div class="wave circulo c"></div>
+        </div>
+      </div>
+    </div>
+      
+    <section class="container-fluid">
+      <div class="card text-bg-dark border border-dark">
+        <img src="./img/pexels-bruno-scramgnon-315658 (1).jpg" class="card-img ima" alt="Portada" id="port">
+        <div class="card-img-overlay d-flex justify-content-start align-items-start">
+
+          <nav class="navbar navbar-expand-lg" id="inicio">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="index.html">Inicio</a>
+              <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!--<span class=""><img src="" alt=""><img src="./img/light-bulb (2).png" alt=""></span>-->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                </ul>
+              </div>
+            </div>
+          </nav>
+            </div>
+          </nav>
+          <div>
+        </div>
+      </div>
+    </section>
+
+    <!--juego-->
+   <div class="container">
+    <div class="row row-cols-3 tablero">
+      <div id="c1" onclick="jugar('c1')" class="col casilla">1</div>
+      <div id="c2" onclick="jugar('c2')"  class="col casilla">2</div>
+      <div id="c3" onclick="jugar('c3')"  class="col casilla">3</div>
+      <div id="c4" onclick="jugar('c4')"  class="col casilla">4</div>
+      <div id="c5" onclick="jugar('c5')"  class="col casilla">5</div>
+      <div id="c6" onclick="jugar('c6')"  class="col casilla">6</div>
+      <div id="c7" onclick="jugar('c7')"  class="col casilla">7</div>
+      <div id="c8" onclick="jugar('c8')"  class="col casilla">8</div>
+      <div id="c9" onclick="jugar('c9')"  class="col casilla">9</div>
+    </div>
+
+   </div>
+ 
+      <!--nosotros-->
+      <section class="mt-1 container-fluid ">
+        <div class="d-flex justify-content-center mt-3 subtitu">
+          <img src="./img/collaboration (1).png" class="img-fluid"  alt="Logo">
+          <div class="glitch" data-text="Nosotros" id="nosotros">Nosotros</div>
+        </div>
+        <div class="shadow p-3 mt-2 bg-dark rounded container-fluid"></div>
+         
+        <div class="contendorNosotro"> 
+          <div class="item1">
+            <img class="img-thumbnail" src="./img/fotof.png" alt="Family">
+          </div>
+          <div class="item2 rounded">
+            <h1 class="fs-3">¿Quienes somos?</h1>
+            <p class="fs-5">Somos una Familia caracterizada por ser emprendedora, 
+              que ofrece una variedad de servicios con mucho profesionalismo y 
+              compromiso para brindar la mejor atención al cliente.</p>
+          </div>
+          <div class="item3 rounded">
+            <h1 class="fs-3">Nuestro Objetivo</h1>
+            <p class="fs-5">Hemos creado Soluciones Cordero para ti, para que en este sitio no solo encuentres la solución a tus necesidades, sino además compañía y asesoramiento para la realización del mismo. De esta manera ir un poco más allá de nuestras especializaciones y mostrar nuestros valores familiares.</p>
+          </div>
+          <div class="item4">
+            <!-- juego-->
+            <main class="containerPac">
+              <div class="pacman"></div>
+              <div class="path"></div>
+              <div class="path"></div>
+              <div class="path"></div>
+              <div class="path"></div>
+              <div class="path"></div>
+              <div class="path"></div>
+              <div class="path"></div>
+              <div class="path"></div>
+            </main><!-- Buy me a beer -->
+            <aside class="bmc">
+          </aside>
+          </div>
+          <div class="item5">
+
+          </div>
+
+        </div>
+      </section>
+
+      
+      <section class="d-flex p-2 me-md-3">
+        <div class="footer-basic">
+          <footer>
+              <ul class="list-inline">
+                  <li class="list-inline-item text-white"><a href="#inicio">Inicio</a></li>
+                  <li class="list-inline-item text-white"><a href="#servicios">Servicios</a></li>
+                  <li class="list-inline-item text-white"><a href="#nosotros">Nosotros</a></li>
+                  <li class="list-inline-item text-white"><a href="#contacto">Contactos</a></li>
+              </ul>
+          </footer>
+      </div>
+
+      </section>
+      <footer class="w-100 d-flex aling-items justify-content-center flex-wrap pie">
+        <img style="height:100px ;" src="./img/logokys.png" alt="logokys">
+        <div> 
+            <li class="list-group-item text-white pt-3 ">Correo Eléctronico: davic1987@gmail.com <img src="./img/gmail (2).png" alt=""> </li>
+            <li class="list-group-item text-white pt-3">Desarrollo Web K&S: <a href="https://www.facebook.com/profile.php?id=100085787355662" target="_blank" class="card-link"><img src="./img/facebook (1).png" alt="Facebook-Logo"></a></li>
+        </div>
+      </footer>
+      
+    <script> src="reglas.js"</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  </body>
+</html>

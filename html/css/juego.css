@@ -1,0 +1,13 @@
+.tablero{
+    margin: auto;
+    max-width: 30cm;
+    margin-top: 3cm;
+}
+
+.casilla{
+    height: 100px;
+    text-align: center !important;
+    font-size: 1cm;
+    color: lightgray;
+    border: 3px solid white;
+}
