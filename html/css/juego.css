@@ -6,8 +6,16 @@
 
 .casilla{
     height: 100px;
-    text-align: center !important;
     font-size: 1cm;
     color: lightgray;
-    border: 3px solid white;
+    padding: 1rem;
+    cursor: pointer;
+}
+.lleno{
+    background-color: lawngreen;
+    color: black;
+}
+.ganador{
+background-color: red;
+color: black;
 }
